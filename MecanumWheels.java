@@ -47,7 +47,7 @@ public class TestMecanum extends DMRelicAbstract {
         motorLeftB.setPower(powerLeftB);
 
         // Set controls
-        velocityDrive = -gamepad1.left_stick_y; //
+        velocityDrive = -gamepad1.left_stick_y;
         strafeDrive = gamepad1.left_stick_x;
         rotationDrive = gamepad1.right_stick_x;
 
