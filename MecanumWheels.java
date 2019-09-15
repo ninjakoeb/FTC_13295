@@ -31,8 +31,8 @@ public class TestMecanum extends DMRelicAbstract {
         //imu = hardwareMap.get(BNO055IMU.class, "imu");
         //imu.initialize(parameters);
 
-        IncVal = 5;
-
+        IncVal = 5; 
+ 
     }
  
     @Override
