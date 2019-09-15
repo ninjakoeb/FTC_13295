@@ -72,7 +72,7 @@ public class TestMecanum extends DMRelicAbstract {
 
         // If the left stick and the right stick is used it halves the power  of the motors for better accuracy
         if (gamepad1.left_stick_y > 0 || gamepad1.left_stick_y < 0 && gamepad1.right_stick_x > 0 || gamepad1.right_stick_x < 0) {
-
+ 
 
             powerRightA = Range.clip(powerRightA, -0.5f, 0.5f);
             powerRightB = Range.clip(powerRightB, -0.5f, 0.5f);
